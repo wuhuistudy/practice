@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  redis:
+    host: 121.5.200.64
+    port: 6379
+    password: 123456
+    timeout: 10000
+    max-wait: -1
+  # mq service
+  rocketmq:
+    name-server: 121.5.200.64:9876
+    producer:
+      group: my-mq-group
+      send-message-timeout: 86400
+      compress-message-body-threshold: 4096
+      max-message-size: 4194304
+      retry-times-when-send-async-failed: 0
+      retry-next-server: true
+      retry-times-when-send-failed: 2
+logging:
+  config: classpath:logback-spring.xml
