@@ -1,8 +1,8 @@
-package com.springbootexample.practice.web.controller;
+package com.springbootexample.practice.controller;
 
 import com.google.gson.Gson;
-import com.springbootexample.practice.web.vo.MyTopics;
-import com.springbootexample.practice.web.vo.OrderPaidEvent;
+import com.springbootexample.practice.entity.vo.MyTopics;
+import com.springbootexample.practice.entity.vo.OrderPaidEvent;
 import com.zc.smartcity.rocketmq.core.RocketMQTemplate;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;

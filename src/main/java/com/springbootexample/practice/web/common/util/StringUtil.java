@@ -1,5 +1,4 @@
 package com.springbootexample.practice.web.common.util;
-import com.springbootexample.practice.web.controller.TestController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

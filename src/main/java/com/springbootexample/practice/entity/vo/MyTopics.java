@@ -1,4 +1,4 @@
-package com.springbootexample.practice.web.vo;
+package com.springbootexample.practice.entity.vo;
 
 public interface MyTopics {
 

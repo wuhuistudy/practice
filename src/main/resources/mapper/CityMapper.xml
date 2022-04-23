@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootexample.practice.mapper.CityMapper">
+
+    <select id="listCities" resultType="com.springbootexample.practice.entity.CityEntity">
+		select * from city
+	</select>
+
+    <select id="getCityById" resultType="com.springbootexample.practice.entity.CityEntity">
+		select * from city where id = #{id}
+	</select>
+
+</mapper>

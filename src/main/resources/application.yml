@@ -7,6 +7,15 @@ spring:
     password: 123456
     timeout: 10000
     max-wait: -1
+  datasource:
+    #需要连接的本地数据库
+    url: jdbc:mysql://121.5.200.64:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    #驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root  #用户名
+    password: wu123456  #密码
   # mq service
   rocketmq:
     name-server: 121.5.200.64:9876
@@ -20,3 +29,5 @@ spring:
       retry-times-when-send-failed: 2
 logging:
   config: classpath:logback-spring.xml
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml

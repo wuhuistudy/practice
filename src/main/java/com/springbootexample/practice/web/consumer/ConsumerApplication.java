@@ -3,8 +3,8 @@ package com.springbootexample.practice.web.consumer;
 import java.util.List;
 
 import com.google.gson.Gson;
-import com.springbootexample.practice.web.vo.MyTopics;
-import com.springbootexample.practice.web.vo.OrderPaidEvent;
+import com.springbootexample.practice.entity.vo.MyTopics;
+import com.springbootexample.practice.entity.vo.OrderPaidEvent;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
