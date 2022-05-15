@@ -50,4 +50,8 @@
     <logger name="com.springbootexample.practice" level="DEBUG">
         <appender-ref ref="console" />
     </logger>
+    <!-- 打开 Bean Searcher 的 SQL 日志 -->
+    <logger name="com.ejlchina.searcher.implement.DefaultSqlExecutor" level="DEBUG" additivity="false">
+        <appender-ref ref="console" />
+    </logger>
 </configuration>

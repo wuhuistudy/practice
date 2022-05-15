@@ -90,6 +90,12 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+        <!-- SpringBoot / Grails 的项目Bean Searcher 核心依赖 -->
+        <dependency>
+            <groupId>com.ejlchina</groupId>
+            <artifactId>bean-searcher-boot-starter</artifactId>
+            <version>3.6.3</version>
+        </dependency>
     </dependencies>
 
     <build>
