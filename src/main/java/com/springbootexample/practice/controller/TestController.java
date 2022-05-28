@@ -2,9 +2,7 @@ package com.springbootexample.practice.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.springbootexample.practice.entity.DataInfo;
 import com.springbootexample.practice.entity.DirPathName;
-import com.springbootexample.practice.entity.Root;
 import com.springbootexample.practice.entity.vo.CityVO;
 import com.springbootexample.practice.service.CityService;
 import com.springbootexample.practice.web.common.util.RedisUtil;
